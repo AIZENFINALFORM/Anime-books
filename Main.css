@@ -1,0 +1,1485 @@
+/* Весь сайт */
+html {
+    overflow-x: hidden;
+}
+body {
+    margin: 0;
+    width: 100%;
+}
+header {
+    width: 100%;
+    height: 111.71px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(178, 178, 178, 0.463041);
+    display: flex;
+}
+.stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 84.39px;
+    height: 13.03px;
+}
+.checked {
+    color: #FECB1C;
+    margin-right: 2px;
+}
+/* Шапка сайта */
+.logo {
+    width: 102px;
+    height: 111.71px;
+}
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.menu-small {
+    display: none;
+    height: 2em;
+}
+h1 {
+    margin-left: 15px;
+    width: 163px;
+    height: 36.14px;
+    align-self: center;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 1.40571px;
+
+    color: #323432;
+
+}
+nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: 10%;
+}
+.registration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    visibility: visible;
+    margin-left: 70px;
+}
+.registrationtext {
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 5px;
+    letter-spacing: 1.17143px;
+
+    color: #4F4F4F;
+}
+a {
+    text-decoration: none;
+}
+.navelement {
+    width: 100px;
+    margin-right: 100px;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    visibility: visible;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 1.17143px;
+
+    color: #4F4F4F;
+}
+.readbooksbrect, .readbooksmrect, .readbooksprect {
+    box-sizing: border-box;
+
+    width: 150px;
+    height: 58px;
+
+    background: #169E16;
+    border-radius: 15px;
+}
+.readbooksb, .readbooksm, .readbooksp {
+    display: flex;
+    align-items: center;
+}
+.readbooksbtext, .readbooksmtext, .readbooksptext {
+    width: 118px;
+    margin-left: -130px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 1.17143px;
+
+    color: #FFFFFF;
+}
+/* Секция читать книги */
+.readbooks {
+    display: flex;
+    padding-left: 25%;
+    margin-top: 4px;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    background-color: #FFFFFF;
+    background-image: url(images/bleachbackground.jpg);
+}
+.books10thousands {
+    width: 50%;
+    height: 108px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    letter-spacing: 2.34286px;
+
+    color: #FFFFFF;
+}
+.difanimebooks {
+    width: 40%;
+    height: 132px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+
+    letter-spacing: 1.40571px;
+
+    color: #FFFFFF;
+}
+/* Секция боттом бар */
+.bottombar {
+    z-index: 1;
+    width: 100%;
+    height: 100px;
+    background-color: #161616;
+}
+.biglines {
+    display: flex;
+    padding-top: 2%;
+    justify-content: space-around;
+    align-items: center;
+}
+.smalllines {
+    display: flex;
+    padding-top: 1%;
+    justify-content: space-around;
+    align-items: center;
+}
+.bigline {
+    width: 260px;
+    height: 6px;
+
+    background: #D8D8D8;
+    border: 1px solid #979797;
+}
+.smallline {
+    width: 173px;
+    height: 6px;
+
+    background: #D8D8D8;
+    border: 1px solid #979797;
+}
+/* Секция почему мы любим книги */
+.whywelovebooks {
+    display: flex;
+    margin-top: 5%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 246px;
+}
+.whywelovebooksheader {
+    width: 448px;
+    height: 44px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+
+    text-align: center;
+    letter-spacing: 1.87429px;
+
+    color: #444444;
+}
+.whywelovebookstext {
+    width: 808px;
+    height: 90px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+
+    text-align: center;
+    letter-spacing: 1.28857px;
+
+    color: #767070;
+}
+.learnmorebutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 53px;
+    border: 1px solid #5C5C5C;
+    border-radius: 15px;
+}
+.learnmoretext {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 1.17143px;
+    text-decoration: none;
+
+    color: #5C5C5C;
+}
+/* Секция рекомендованные книги*/
+.animebooksforyou {
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 486.5px;
+}
+.animebooksforyouheader {
+    width: 532px;
+    height: 44px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 1.87429px;
+
+    color: #444444;
+}
+.animebooksforyoutext {
+    width: 568px;
+    height: 30px;
+    margin-top: -20px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+
+    text-align: center;
+    letter-spacing: 1.28857px;
+
+    color: #767070;
+}
+.reccomendedbooks {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.seemorebooks {
+    height: 27px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 1.17143px;
+
+    margin-left: 1245px;
+    color: #169E16;
+}
+/* Книга "Ван Пис" */
+.onepiece {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 255px;
+    height: 299px;
+    background: #FFFFFF;
+    box-shadow: 1.03103px 4.12414px 15px rgba(130, 130, 130, 0.18);
+    border-radius: 5.15517px;
+}
+.onepieceimg {
+    width: 124px;
+    height: 186px;
+
+    border-radius: 30px;
+}
+.onepieceheader {
+    width: 228px;
+    height: 0px;
+    margin-top: 8px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 31px;
+    /* or 193% */
+
+    text-align: center;
+    letter-spacing: 1.32856px;
+
+    color: #444444;
+}
+.onepieceauthor {
+    width: 227.86px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 31px;
+    /* or 221% */
+
+    text-align: center;
+    letter-spacing: 1.32856px;
+
+    color: #444444;
+}
+/* Книга "Больше, чем пара, меньше, чем любовники" */
+.morethan {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 255px;
+    height: 299px;
+    background: #FFFFFF;
+    box-shadow: 1.03103px 4.12414px 15px rgba(130, 130, 130, 0.18);
+    border-radius: 5.15517px;
+}
+.morethanimg {
+    width: 124px;
+    height: 186px;
+
+    border-radius: 30px;
+}
+.morethanheader {
+    width: 228px;
+    height: 0px;
+    margin-top: 8px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 31px;
+    /* or 193% */
+
+    text-align: center;
+    letter-spacing: 1.32856px;
+
+    color: #444444;
+}
+.morethanauthor {
+    width: 227.86px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 31px;
+    /* or 221% */
+
+    text-align: center;
+    letter-spacing: 1.32856px;
+
+    color: #444444;
+}
+/* Книга "Невероятные Приключения ДжоДжо" */
+.jojoadventures {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 255px;
+    height: 299px;
+    background: #FFFFFF;
+    box-shadow: 1.03103px 4.12414px 15px rgba(130, 130, 130, 0.18);
+    border-radius: 5.15517px;
+}
+.jojoadventuresimg {
+    width: 124px;
+    height: 186px;
+
+    border-radius: 30px;
+}
+.jojoadventuresheader {
+    width: 228px;
+    height: 0px;
+    margin-top: 8px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 31px;
+    /* or 193% */
+
+    text-align: center;
+    letter-spacing: 1.32856px;
+
+    color: #444444;
+}
+.jojoadventuresauthor {
+    width: 227.86px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 31px;
+    /* or 221% */
+
+    text-align: center;
+    letter-spacing: 1.32856px;
+
+    color: #444444;
+}
+/* Книга "Человек-Бензопила" */
+.chainsawman {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 255px;
+    height: 299px;
+    background: #FFFFFF;
+    box-shadow: 1.03103px 4.12414px 15px rgba(130, 130, 130, 0.18);
+    border-radius: 5.15517px;
+}
+.chainsawmanimg {
+    width: 124px;
+    height: 186px;
+
+    border-radius: 30px;
+}
+.chainsawmanheader {
+    width: 228px;
+    height: 0px;
+    margin-top: 8px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 31px;
+    /* or 193% */
+
+    text-align: center;
+    letter-spacing: 1.32856px;
+
+    color: #444444;
+}
+.chainsawmanauthor {
+    width: 227.86px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 31px;
+    /* or 221% */
+
+    text-align: center;
+    letter-spacing: 1.32856px;
+
+    color: #444444;
+}
+/* Секция - книга недели "Ванпанчмен" */
+.featuredweekbook {
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 353.5px;
+}
+.featuredweekbookimage {
+    width: 238px;
+    height: 353.5px;
+
+    border-radius: 30px;
+}
+.featuredweekbookall {
+    margin-left: 200px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.featuredweekbooktop {
+    width: 268px;
+    height: 22px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    letter-spacing: 1.05429px;
+
+    color: #444444;
+}
+.featuredweekbookheader {
+    width: 524px;
+    height: 38px;
+    margin-top: -15px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 1.87429px;
+
+    color: #444444;
+}
+.featuredweekbooktext {
+    width: 460px;
+    height: 120px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    letter-spacing: 1.28857px;
+
+    color: #767070;
+}
+/* Секция пообщайтесь о аниме */
+.chataboutanimebooks {
+    display: flex;
+    margin-top: 150px;
+    width: 100%;
+    height: 415px;
+    justify-content: end;
+    background-color: #161616;
+}
+.chataboutanimebooksall {
+    display: flex;
+    margin-left: 210px;
+    width: 40%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+.chataboutanimebooksheader {
+    width: 353px;
+    height: 44px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    /* identical to box height */
+
+    letter-spacing: 1.87429px;
+
+    color: #FFFFFF;
+}
+.chataboutanimebookstext {
+    width: 315px;
+    height: 120px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    letter-spacing: 1.28857px;
+
+    color: #FFFFFF;
+}
+.chataboutanimebooksbutton, .chataboutanimebooksbutton2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 175px;
+    border: 1px solid #FFFFFF;
+}
+.chataboutanimebooksbuttontext, .chataboutanimebooksbuttontext2 {
+    height: 27px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 1.17143px;
+
+    color: #FFFFFF;
+}
+.chataboutanimebooksimage {
+    width: 732px;
+    height: 415px;
+    background-size: 732px, 415px;
+    background-image: url(images/angelbackground.jpg);
+}
+/* Секция Наш отзыв */
+.ourreaderssaying {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ourreaderssayingtext {
+    width: 500px;
+    height: 0px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 1.87429px;
+
+    color: #444444;
+
+}
+.wesay {
+    width: 530px;
+    height: 30px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+
+    text-align: center;
+    letter-spacing: 1.28857px;
+
+    color: #767070;
+}
+.nikolaysay {
+    width: 530px;
+    height: 60px;
+
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+
+    text-align: center;
+    letter-spacing: 1.28857px;
+
+    color: #444444;
+}
+.avataricon {
+    width: 67px;
+    height: 67px;
+}
+.author {
+    width: 530px;
+    height: 0px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+
+    text-align: center;
+    letter-spacing: 1.28857px;
+
+    color: #444444;
+}
+.company {
+    width: 157px;
+    height: 30px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+    /* identical to box height, or 214% */
+
+    text-align: center;
+    letter-spacing: 1.28857px;
+
+    color: #169E16;
+}
+/* Секция Истории */
+.stories {
+    display: flex;
+    width: 100%;
+    height: 750px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.linear, .superlinear {
+    margin-bottom: -142px;
+    width: 444px;
+    height: 135px;
+    background: linear-gradient(179.83deg, rgba(157, 156, 156, 0.0001) 0.1%, rgba(0, 0, 0, 0.95) 84.59%);
+    border-radius: 15px;
+}
+.superlinear{
+    height: 334px;
+}
+.storiescontainer1, .storiescontainer2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+    justify-content: space-around;
+}
+.storiescontainer2 {
+    margin-top: 100px;
+}
+.storiesheader {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 1.8209px;
+
+    color: #FFFFFF;
+}
+.storiestext {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 1.8209px;
+    margin-left: 20px;
+
+    color: #FFFFFF;
+}
+.thebestauthorthisweek {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    background-color: #169E16;
+    width: 444px;
+    height: 334px;
+    border-radius: 15px;
+    border: #161616 1px solid;
+}
+.celebratereaders {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    background-color: #169E16;
+    width: 444px;
+    height: 334px;
+    border-radius: 15px;
+    border: #161616 1px solid;
+}
+.alsoread {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/bleach.jpg);
+    background-size: 570px 334px;
+    background-position-x: -70px;
+    width: 444px;
+    height: 334px;
+    border-radius: 15px;
+    border: #161616 1px solid;
+}
+.startyourgame {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    background-image: url(images/books.jpg);
+    background-size: 444px 334px;
+    width: 444px;
+    height: 334px;
+    border-radius: 15px;
+    border: #161616 1px solid;
+}
+/* Секция Получать уведомления */
+.getannouncements {
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    margin-top: 120px;
+    width: 100%;
+    height: 500px;
+    background-position-x: -400px;
+    justify-content: center;
+    align-items: start;
+    background-color: #161616;
+    background-size: 1000px 500px;
+    background-position-x: 700px;
+    background-repeat: no-repeat;
+    background-image: url(images/akariuvedomlenie.jpg);
+}
+.getannouncementsheader {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 0px;
+    /* identical to box height */
+
+    letter-spacing: 1.87429px;
+
+    color: #FFFFFF;
+}
+.getannouncementstext {
+    width: 450px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    /* or 167% */
+
+    letter-spacing: 1.28857px;
+
+    color: #FFFFFF;
+}
+.emailfield {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: start;
+    align-items: center;
+
+    width: 530px;
+    height: 53px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+.emailtext {
+    width: 324px;
+    height: 30px;
+    margin-left: 20px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    /* identical to box height, or 200% */
+
+    letter-spacing: 1.28857px;
+
+    color: #9E9E9E;
+}
+.subscribebutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 206px;
+    height: 53px;
+
+    background: #169E16;
+    border-radius: 0px 5px 5px 0px;
+}
+.subscribetext {
+    width: 148px;
+    height: 25px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+    letter-spacing: 1.17143px;
+
+    color: #FFFFFF;
+}
+/* Секция Социальные сети */
+.sociallinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+}
+.sociallinksheader {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 1.87429px;
+
+    color: #444444;
+}
+.sociallinkstext {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    width: 700px;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    text-align: center;
+    letter-spacing: 1.28857px;
+
+    color: #767070;
+
+}
+.sociallinksicons {
+    width: 50%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+.discord {
+    width: 100px;
+    height: 100px;
+}
+.instagram {
+    width: 100px;
+    height: 100px;
+}
+.telegram {
+    width: 100px;
+    height: 100px;
+}
+.youtube {
+    width: 100px;
+    height: 100px;
+}
+/* Секция Читать FAQ */
+.stillnotsure {
+    display: flex;
+    margin-top: 80px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.stillnotsureheader {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 1.87429px;
+
+    color: #444444;
+}
+.stillnotsuretext {
+    width: 45%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    text-align: center;
+    letter-spacing: 1.28857px;
+
+    color: #767070;
+}
+.readfaqbutton {
+    width: 146px;
+    border: 1px solid #5C5C5C;
+}
+.readfaqtext {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    line-height: 15px;
+    letter-spacing: 1.17143px;
+
+    color: #5C5C5C;
+}
+
+/* Подвал сайта */
+footer {
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    background: #161616;
+}
+.allrights {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 30px;
+    /* identical to box height, or 83% */
+
+    text-align: center;
+    letter-spacing: 1.28857px;
+
+    color: #FFFFFF;
+}
+.footermenu {
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.footertext {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 30px;
+    /* identical to box height, or 94% */
+
+    text-align: center;
+    letter-spacing: 1.28857px;
+
+    color: #FFFFFF;
+}
+
+@media (max-width: 640px) {
+    /* Шапка сайта */
+    nav {
+        margin-left: 10%;
+    }
+    .menu-small {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        position: absolute;
+        background: white;
+        transform: translateX(-100%);
+        z-index: 1;
+    }
+    .menu_small_icon {
+        position: absolute;
+        top: 2em;
+        left: 82%;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        z-index: 2;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    .stick {
+        width: 80%;
+        height: 5px;
+        background: black;
+    }
+    .registration, .navelement, .readbooksb {
+        visibility: hidden;
+    }
+    /* Секция читать книги */
+    .readbooks {
+        padding-left: 3%;
+        height: 520px;
+        background-size: 890px;
+        background-position-x: -120px;
+    }
+    .books10thousands {
+        width: 360px;
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+    }
+    .difanimebooks {
+        width: 310px;
+        height: 234px;
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 33px;
+        /* or 138% */
+
+        letter-spacing: 1.40571px;
+    }
+    .readbooksm {
+        margin-bottom: 50px;
+    }
+    /* Секция боттом бар */
+    .bottombar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .biglines {
+        margin-bottom: 10px;
+    }
+    .bigline {
+        width: 65px;
+    }
+    .smallline {
+        width: 43px;
+    }
+    /* Секция почему мы любим книги */
+    .whywelovebooks {
+        height: 246px;
+        margin-top: 50px;
+    }
+    .whywelovebooksheader {
+        width: 360px;
+        height: 25px;
+        font-size: 25px;
+    }
+    .whywelovebookstext {
+        width: 360px;
+        height: 218px;
+    }
+    /* Секция рекомендованные книги*/
+    .animebooksforyou {
+        height: 1644pxx;
+        margin-top: 700px;
+    }
+    .animebooksforyouheader {
+        font-size: 29px;
+    }
+    .animebooksforyoutext {
+        width: 302px;
+        height: 56px;
+        margin-top: -20px;
+    }
+    .reccomendedbooks {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .seemorebooks {
+        margin-left: 100px;
+        width: 142px;
+        height: 27px;
+    }
+    /* Книга "Ван Пис" */
+    .onepiece {
+        margin-bottom: 100px;
+    }
+    /* Книга "Больше, чем пара, меньше, чем любовники" */
+    .morethan {
+        margin-bottom: 100px;
+    }
+    /* Книга "Невероятные Приключения ДжоДжо" */
+    .jojoadventures {
+        margin-bottom: 100px;
+    }
+    /* Секция - книга недели "Ванпанчмен" */
+    .featuredweekbook {
+        flex-direction: column;
+        margin-top: 900px;
+        margin-bottom: 200px;
+    }
+    .featuredweekbookall {
+        margin-left: 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .featuredweekbooktop {
+        width: 100%;
+        text-align: center;
+        margin-top: -430px;
+    }
+    .featuredweekbookheader {
+        width: 100%;
+        text-align: center;
+    }
+    .stars1 {
+        width: 100%;
+        text-align: center;
+        margin-top: 360px;
+    }
+    .featuredweekbooktext {
+        width: 350px;
+        height: 180px;
+        text-align: center;
+    }
+    /* Секция пообщайтесь о аниме */
+    .chataboutanimebooks {
+        flex-direction: column;
+        width: 100%;
+        height: 490px;
+        align-items: end;
+    }
+    .chataboutanimebooksall {
+        width: 100%;
+    }
+    .chataboutanimebooksheader {
+        margin-bottom: 200px;
+        width: 100%;
+        margin-top: 0px;
+        font-size: 26px;
+        text-align: center;
+    }
+    .chataboutanimebookstext {
+        text-align: center;
+        margin-bottom: -600px;
+        width: 100%;
+        height: 120px;
+    }
+    .chataboutanimebooksbutton {
+        margin-left: 95px;
+        margin-top: 600px;
+    }
+    .chataboutanimebooksimage {
+        margin-top: -400px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: 100%, 415px;
+    }
+    /* Секция Наш отзыв */
+    .ourreaderssaying {
+        margin-bottom: 100px;
+    }
+    .ourreaderssayingtext {
+        font-size: 24px;
+    }
+    .nikolaysay {
+        width: 305.36px;
+        height: 90px;
+    }
+    /* Секция Истории */
+    .stories {
+        height: 1018px;
+    }
+    .linear, .superlinear {
+        width: 100%;
+        height: 135px;
+    }
+    .superlinear{
+        height: 334px;
+    }
+    .storiescontainer1, .storiescontainer2 {
+        flex-direction: column;
+        width: 100%;
+        height: 560px;
+    }
+    .storiescontainer2 {
+        margin-top: 20px;
+    }
+    .thebestauthorthisweek {
+        width: 100%;
+        height: 279px;
+        margin-bottom: 20px;
+    }
+    #thebestauthorthisweek {
+        margin-bottom: -170px;
+    }
+    .celebratereaders {
+        width: 100%;
+        height: 279px;
+    }
+    .alsoread {
+        background-size: 570px 334px;
+        background-position-x: -100px;
+        background-position-y: -20px;
+        width: 100%;
+        height: 279px;
+        margin-bottom: 20px;
+    }
+    .startyourgame {
+        width: 100%;
+        height: 279px;
+    }
+    /* Секция Получать уведомления */
+    .getannouncements {
+        width: 100%;
+        height: 619px;
+        padding-left: 10px;
+        background-position-x: -100px;
+        background-position-y: 225px;
+        background-size: 596px 297px;
+    }
+    .getannouncementsheader {
+        font-size: 30px;
+    }
+    .getannouncementstext {
+        width: 350px;
+    }
+    .emailfield {
+        width: 350px;
+        margin-top: 300px;
+    }
+    .emailtext {
+        font-size: 10px;
+    }
+    .subscribebutton {
+        width: 120px;
+    }
+    .subscribetext {
+        text-align: center;
+        font-size: 12px;
+    }
+    /* Секция Социальные сети */
+    .sociallinks {
+        width: 100%;
+        height: 420px;
+    }
+    .sociallinksheader {
+        font-size: 29px;
+    }
+    .sociallinkstext {
+        width: 300px;
+    }
+    .sociallinksicons {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sociallinksicons1 {
+        display: flex;
+        margin-bottom: 15px;
+    }
+    .sociallinksicons2 {
+        display: flex;
+    }
+    .discord, .telegram {
+        margin-right: 50px;
+    }
+    /* Секция Читать FAQ */
+    .stillnotsureheader {
+        font-size: 30px;
+    }
+    .stillnotsuretext {
+        width: 80%;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        /* or 167% */
+    
+        text-align: center;
+        letter-spacing: 1.28857px;
+    
+        color: #767070;
+    }
+    .readfaqbutton {
+        width: 146px;
+        border: 1px solid #5C5C5C;
+    }
+    .readfaqtext {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 20px;
+        line-height: 15px;
+        letter-spacing: 1.17143px;
+    
+        color: #5C5C5C;
+    }
+    
+    /* Подвал сайта */
+    footer {
+        flex-direction: column;
+        width: 100%;
+        height: 300px;
+    }
+    .allrights {
+        font-size: 23px;
+    }
+    .footermenu {
+        width: 100%;
+        flex-direction: column;
+    }
+    .footertext {
+        font-size: 22px;
+        line-height: 0px;
+        margin-bottom: 40px;
+    }
+}
+@media (min-width: 377px) and (max-width: 640px) {
+    .chataboutanimebookstext {
+        font-size: 17px;
+        text-align: start;
+        margin-left: 5px;
+    }
+}
+@media (min-width: 390px) and (max-width: 640px) {
+    .chataboutanimebookstext {
+        margin-bottom: -630px;
+        font-size: 12px;
+        margin-left: 2px;
+        text-align: start;
+    }
+    .chataboutanimebooksheader {
+        margin-bottom: 240px;
+    }
+}

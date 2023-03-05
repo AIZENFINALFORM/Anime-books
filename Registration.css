@@ -1,0 +1,198 @@
+/* Весь сайт */
+html {
+    overflow-x: hidden;
+}
+body {
+    margin: 0;
+    width: 100%;
+}
+header {
+    width: 100%;
+    height: 111.71px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(178, 178, 178, 0.463041);
+    display: flex;
+}
+.stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 84.39px;
+    height: 13.03px;
+}
+.checked {
+    color: #FECB1C;
+    margin-right: 2px;
+}
+/* Шапка сайта */
+.logo {
+    width: 102px;
+    height: 111.71px;
+}
+h1 {
+    margin-left: 15px;
+    width: 163px;
+    height: 36.14px;
+    align-self: center;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 1.40571px;
+
+    color: #323432;
+
+}
+nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: 10%;
+}
+.registration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    margin-left: 70px;
+}
+.registrationtext {
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 5px;
+    letter-spacing: 1.17143px;
+
+    color: #4F4F4F;
+}
+.avataricon {
+    width: 67px;
+    height: 67px;
+}
+a {
+    text-decoration: none;
+}
+.navelement {
+    width: 100px;
+    margin-right: 100px;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 1.17143px;
+
+    color: #4F4F4F;
+}
+.readbooksbrect {
+    box-sizing: border-box;
+
+    width: 150px;
+    height: 58px;
+
+    background: #169E16;
+    border-radius: 15px;
+}
+.readbooksb {
+    display: flex;
+    align-items: center;
+}
+.readbooksbtext {
+    width: 118px;
+    margin-left: -130px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 1.17143px;
+
+    color: #FFFFFF;
+}
+/* Войти */
+.signin {
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 205px);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    text-align: center;
+}
+input {
+    margin: 1.5em;
+    padding: 1em;
+    border-color: #4560e5;
+    color: #4560e5;
+}
+
+h2 {
+    text-align: center;
+}
+
+button {
+    padding: 1em;
+    margin: 1.5em;
+    color: #4560e5;
+    background: white;
+    border-color: #4560e5;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+/* Подвал сайта */
+footer {
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    background: #161616;
+}
+.allrights {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 30px;
+    /* identical to box height, or 83% */
+
+    text-align: center;
+    letter-spacing: 1.28857px;
+
+    color: #FFFFFF;
+}
+.footermenu {
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.footertext {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 30px;
+    /* identical to box height, or 94% */
+
+    text-align: center;
+    letter-spacing: 1.28857px;
+
+    color: #FFFFFF;
+
+}
